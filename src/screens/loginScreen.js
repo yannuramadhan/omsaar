@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import { Button, TextInput, ActivityIndicator } from 'react-native-paper';
 import LogoImage from '../assets/images/icon.png';
 import axios from 'axios';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ScrollView } from 'react-native-gesture-handler';
 import DeviceInfo from 'react-native-device-info';
 import { API_CONNECTION } from '@env';

@@ -3,7 +3,7 @@ import { StyleSheet, View, Text, ScrollView, TextArea, TouchableOpacity, Image, 
 import { Button, TextInput } from 'react-native-paper';
 import Header from '../components/header'; // Import komponen Header
 import axios from 'axios';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import numberFormater from "../components/numberFormatter.js";
 import InboundCallinTable from "../components/inboundCallinTable.js";
 import { API_CONNECTION } from '@env';

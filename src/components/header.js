@@ -7,7 +7,7 @@ import Icon3 from 'react-native-vector-icons/SimpleLineIcons';
 import BackgroundImage from '../assets/images/bg.jpg';
 import LogoImage from '../assets/images/user.jpg';
 import axios from 'axios';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { check, PERMISSIONS, RESULTS, request } from 'react-native-permissions';
 import { useFocusEffect } from '@react-navigation/native';
 import DeviceInfo from 'react-native-device-info';

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, Text , ScrollView, TouchableOpacity, Image, ImageBackground, Alert, Modal } from 'react-native';
 import Header from '../components/header'; // Import komponen Header
 import { Button, TextInput, ActivityIndicator } from 'react-native-paper';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/FontAwesome';
