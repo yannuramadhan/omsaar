@@ -1,2 +1,2 @@
 # react-native
-# oms connect .arr
+# oms connect .aar
