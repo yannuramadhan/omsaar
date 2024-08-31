@@ -1,2 +1,2 @@
 # react-native
-# oms connect .aar
+# oms connect oceanacustomerwebvoicevideo.aar
