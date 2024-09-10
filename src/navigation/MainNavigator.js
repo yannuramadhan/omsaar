@@ -65,6 +65,17 @@ const MainNavigator = () => {
                         headerShown: true
                     }} />
                 <MainStack.Screen
+                    name="ClickToCall"
+                    component={Screens.ClickToCallScreen}
+                    options={{
+                        headerTitle: null,
+                        headerStyle: {
+                            backgroundColor: 'orange'
+                        },
+                        headerTintColor: 'white',
+                        headerShown: true
+                    }} />
+                <MainStack.Screen
                     name="OrderDetail"
                     component={Screens.OrderDetailScreen}
                     options={{

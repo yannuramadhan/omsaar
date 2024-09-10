@@ -7,6 +7,7 @@ import ConfirmScreen from './ConfirmScreen';
 import ChangePasswordScreen from './ChangePasswordScreen';
 import accountScreen from './accountScreen';
 import SettingScreen from './SettingScreen';
+import ClickToCallScreen from './ClickToCallScreen';
 
 export default {
     loginScreen,
@@ -18,4 +19,5 @@ export default {
     accountScreen,
     SettingScreen,
     ChangePasswordScreen,
+    ClickToCallScreen
 }

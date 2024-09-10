@@ -112,6 +112,10 @@ const LoginScreen = ({ navigation }) => {
         }
     };
 
+    const handleCallToCs = () => {
+        navigation.navigate('ClickToCall');
+    };
+
     useEffect(() => {
         getUserCache();
     }, []);
@@ -119,6 +123,16 @@ const LoginScreen = ({ navigation }) => {
     return (
         <ScrollView keyboardShouldPersistTaps="handled">
         <View style={styles.container}>
+            <Text>From AUDIOCODES :</Text>
+            <Button
+                style={styles.button}
+                disabled={isLoading}
+                labelStyle={styles.buttonText}
+                onPress={handleCallToCs}
+                
+            >Call To CS</Button>
+
+            <View style={styles.buttonSpacing} />
             <View style={styles.logoContainer}>
                 {/* Gambar/logo */}
                 <Image source={LogoImage} style={styles.logo} />
@@ -271,6 +285,9 @@ const styles = StyleSheet.create({
         alignSelf: 'flex-end',
         // marginBottom: 13,
         marginTop: 2,
+    },
+    buttonSpacing: {
+        height: 16, // Adjust spacing between buttons
     },
 });
 

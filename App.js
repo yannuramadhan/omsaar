@@ -19,25 +19,31 @@ const App = () => {
     try {
       const version = await CustomModule.getVersionNumber();
       console.log('OceanaCustomerWebVoiceVideo Version:', version);
+      alert(`OceanaCustomerWebVoiceVideo Version: ${version}`);
     } catch (error) {
       console.error('Error getting version:', error);
     }
   };
 
+
   const handleCreateWork = async () => {
     try {
       const result = await CustomModule.createWork();
       console.log(result);
+      alert(result);
     } catch (error) {
       console.error('Error creating work:', error);
     }
   };
+
+
 
   return (
     <Provider store={store}>
       <SafeAreaView style={styles.container}>
         <StatusBar barStyle="default" />
         <View style={styles.buttonContainer}>
+          <Text>From AAR :</Text>
           <Button
             onPress={handleGetVersion}
             title="Get Version Number"
@@ -47,6 +53,8 @@ const App = () => {
             onPress={handleCreateWork}
             title="Create Work"
           />
+          
+
         </View>
         <MainNavigator />
       </SafeAreaView>
