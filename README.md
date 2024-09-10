@@ -1,1 +1,2 @@
-# react-native-template-simpleredux-boilerplate1 
+# react-native
+# oms connect oceanacustomerwebvoicevideo.aar
